@@ -59,10 +59,27 @@ footer nav ul li a:hover{
     color: rgb(125, 204, 126);
     transition: all 0.5s;  
 }
-footer ul li{
+footer nav ul li{
     list-style: none;
     padding: 20px;
     font-size: 20px;
     
 }
 /* social  */
+footer #social li {
+    padding:10px 20px;
+    font-size: 20px; 
+    
+} 
+footer #social ul{
+    list-style: none;
+}
+footer #social ul{
+    display: flex;
+    justify-content: center;
+}
+footer #social ul li{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
