@@ -15,8 +15,8 @@ html, body{
 }
 #top-nav ul{
     display: flex;
-    justify-content: left;
-    list-style: none;
+    justify-content: right;
+    
 }
 #top-nav ul li{
     list-style:none;
@@ -36,10 +36,33 @@ html, body{
 #top-nav ul li a:hover{
     background-color: rgb(194, 197, 126);
 }
-/*design and content width*/
+/*Main design and content width*/
 main{
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
+    
+    max-width: 1400px;
+    margin: 2px auto;
+
     background-color: gray;
 }
+/* footer */
+footer{
+    background-color: azure;
+}
+footer {
+    display: grid;
+    grid-template-columns:auto 1fr auto ;
+    margin:10px;
+    
+}
+footer nav ul li a:hover{
+    display: block;
+    color: rgb(125, 204, 126);
+    transition: all 0.5s;  
+}
+footer ul li{
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+/* social  */
