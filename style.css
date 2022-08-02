@@ -69,7 +69,6 @@ footer nav ul li{
 footer #social li {
     padding:10px 20px;
     font-size: 20px; 
-    
 } 
 footer #social ul{
     list-style: none;
@@ -82,4 +81,8 @@ footer #social ul li{
     display:flex ;
     justify-content: center;
     align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    
 }
